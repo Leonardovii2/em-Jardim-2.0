@@ -1,38 +1,69 @@
-/* Main - Card */
+.card__atrativos h1 {
+  display: flex;
+  justify-content: left;
+  margin: 30px;
+  margin-left: 300px;
+  font-size: 30px;
+}
 
-.card__atrativos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .card {
-    width: 400px;
-    height: 450px;
-    margin: 10px;
-  }
-  
-  .first-row {
-    display: flex;
-  }
-  .second-row {
-    display: flex;
-  }
-  
-  .card .card-image {
-    width: 400px;
-    height: 400px;
-  }
-  
-  .bottom-text {
-    background-color: #323232;
-    width: 400px;
-  }
-  
-  .bottom-text p {
-    color: var(--cor-secundaria);
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-  }
-  
+.cards__hospedagens h1 {
+  display: flex;
+  justify-content: left;
+  margin: 30px;
+  margin-left: 300px;
+  font-size: 30px;
+}
+
+.cards__restaurantes h1{
+  display: flex;
+  justify-content: left;
+  margin: 30px;
+  margin-left: 300px;
+  font-size: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
+  z-index: 1;
+}
+
+.card h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-46%, 530%);
+  z-index: 1;
+  color: rgb(255, 255, 255); /* Ajuste a cor do texto conforme necessário */
+  width: 100%;
+}
