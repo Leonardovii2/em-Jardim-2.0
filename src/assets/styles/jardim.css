@@ -1,0 +1,53 @@
+header {
+  position: relative;
+}
+
+.container-image {
+  background-color: black;
+  height: 500px;
+  width: 1983px;
+}
+
+.image-jardim {
+  display: block;
+  height: 500px;
+  width: 1983px;
+}
+
+.container__jardim {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--cor-quinta);
+  width: 400px;
+  height: 50px;
+  border-radius: 30px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container__jardim h1 {
+  color: var(--cor-secundaria);
+}
+
+.section__cards-text {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+}
+
+.container__text1,
+.container__text2,
+.container__text3 {
+  background-color: rgb(224, 224, 224);
+  margin-left: 20px;
+  width: 300px;
+  height: 360px;
+  padding: 10px;
+}
+
+.section-image {
+  display: flex;
+  justify-content: center;
+}
