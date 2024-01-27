@@ -1,0 +1,43 @@
+.section__lm {
+  display: flex;
+  margin: 80px 500px 80px 500px;
+}
+
+.section__lm .container__lm {
+  background-color: rgb(224, 224, 224);
+  padding: 20px;
+  margin-right: 20px;
+  height: 200px;
+}
+
+.section-image img {
+  width: 450px;
+  padding-bottom: 80px;
+}
+
+.card-informacao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(224, 224, 224);
+  width: 350px;
+  padding: 10px;
+}
+
+.card-informacao h1 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.card-informacao img {
+  margin: 0 15px 0 15px;
+}
+
+.card-informacao .info {
+  margin: 10px 15px 10px 15px;
+}
+
+.card-informacao ul li {
+  list-style: none;
+}
