@@ -1,24 +1,37 @@
-.card__atrativos h1 {
+.cards__hospedagens {
+  background-color: #f1f1f1;
+  padding: 60px;
+}
+
+.cards__atrativos {
+  padding: 60px;
+}
+
+.cards__restaurantes {
+  padding: 60px;
+}
+
+.cards__atrativos h1 {
   display: flex;
   justify-content: left;
-  margin: 30px;
-  margin-left: 300px;
+  padding-bottom: 60px;
+  margin-left: 420px;
   font-size: 30px;
 }
 
 .cards__hospedagens h1 {
   display: flex;
   justify-content: left;
-  margin: 30px;
-  margin-left: 300px;
+  padding-bottom: 60px;
+  margin-left: 420px;
   font-size: 30px;
 }
 
-.cards__restaurantes h1{
+.cards__restaurantes h1 {
   display: flex;
   justify-content: left;
-  margin: 30px;
-  margin-left: 300px;
+  padding-bottom: 60px;
+  margin-left: 420px;
   font-size: 30px;
 }
 
@@ -30,11 +43,15 @@
 .card {
   position: relative;
   width: 300px;
+  height: 300px;
   margin: 10px;
   overflow: hidden;
 }
 
 .image-container {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
   position: relative;
 }
 
