@@ -2,16 +2,10 @@ header {
   position: relative;
 }
 
-.container-image {
-  background-color: black;
-  height: 500px;
-  width: 1983px;
-}
-
 .image-jardim {
   display: block;
   height: 500px;
-  width: 1983px;
+  width: 1903px;
 }
 
 .container__jardim {
@@ -29,6 +23,7 @@ header {
 
 .container__jardim h1 {
   color: var(--cor-secundaria);
+  font-size: 20px;
 }
 
 .section__cards-text {
