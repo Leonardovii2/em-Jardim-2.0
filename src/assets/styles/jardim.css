@@ -1,11 +1,14 @@
+body {
+  background: #f0f0f0;
+}
+
 header {
   position: relative;
 }
 
-.image-jardim {
-  display: block;
+.image-menu-jardim {
+  width: 100%;
   height: 500px;
-  width: 1903px;
 }
 
 .container__jardim {
@@ -26,23 +29,31 @@ header {
   font-size: 20px;
 }
 
-.section__cards-text {
+/* Cards de Jardim */
+
+main {
   display: flex;
   justify-content: center;
-  margin: 100px;
+  flex-direction: column;
+  align-items: center;
 }
 
-.container__text1,
-.container__text2,
-.container__text3 {
-  background-color: rgb(224, 224, 224);
-  margin-left: 20px;
-  width: 300px;
-  height: 360px;
-  padding: 10px;
-}
-
-.section-image {
+.container-cards {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.container-cards .card {
+  padding: 40px;
+}
+
+.container-cards .card p {
+  color: var(--cor-fonte);
+}
+
+.container-cards h2 {
+  padding-bottom: 20px;
 }
