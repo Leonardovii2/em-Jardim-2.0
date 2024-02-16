@@ -1,5 +1,9 @@
+body {
+  background: #f0f0f0;
+}
+
 .cards__hospedagens {
-  background-color: #f1f1f1;
+  background-color: #e9e9e9;
   padding: 60px;
 }
 
@@ -12,7 +16,6 @@
 }
 
 .cards__atrativos h1 {
-  display: flex;
   justify-content: left;
   padding-bottom: 60px;
   margin-left: 420px;
@@ -20,7 +23,6 @@
 }
 
 .cards__hospedagens h1 {
-  display: flex;
   justify-content: left;
   padding-bottom: 60px;
   margin-left: 420px;
@@ -28,7 +30,6 @@
 }
 
 .cards__restaurantes h1 {
-  display: flex;
   justify-content: left;
   padding-bottom: 60px;
   margin-left: 420px;
@@ -83,4 +84,9 @@
   z-index: 1;
   color: rgb(255, 255, 255); /* Ajuste a cor do texto conforme necessário */
   width: 100%;
+}
+
+.color-complemento {
+  color: #CA7937;
+  
 }

@@ -1,0 +1,77 @@
+.image-menu-buracodasararas {
+    width: 100%;
+    height: 500px;
+  }
+  
+  /* Cards Main */
+  
+  .section__lm {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  
+  /* Card história */
+  
+  .card-historia {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    margin-right: 20px;
+  }
+  
+  .card-historia h2 {
+    padding-bottom: 20px;
+  }
+  
+  .card-historia .paragrafo-historia {
+    margin-bottom: 20px;
+    color: var(--cor-fonte); /*Cor da fonte*/
+  }
+  
+  /* Card informação */
+  
+  .card-informacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--cor-fonte);
+    border-radius: 15px;
+    width: 18%;
+    height: auto;
+    padding: 20px;
+  }
+  
+  .card-informacao h1 {
+    padding-bottom: 10px;
+  }
+  
+  .card-informacao img {
+    padding: 5px 0 5px 0;
+    width: 100%;
+  }
+  
+  .card-informacao .info {
+    padding-top: 10px;
+  }
+  
+  .card-informacao ul li {
+    list-style: none;
+    padding-bottom: 5px;
+    color: var(--cor-fonte);
+  }
+  
+  .card-informacao button {
+    background-color: var(--cor-fonte);
+    border: none;
+    border-radius: 12px;
+    padding: 10px;
+    width: 100%;
+    color: #fff;
+  }
+  
