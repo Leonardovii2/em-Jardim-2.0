@@ -66,11 +66,12 @@
   color: var(--cor-fonte);
 }
 
-.card-informacao button {
-  background-color: var(--cor-fonte);
-  border: none;
-  border-radius: 12px;
-  padding: 10px;
+.card-informacao .button {
+  cursor: pointer;
   width: 100%;
+  padding: 8px;
+  border: none;
+  background-color: var(--cor-fonte);
+  border-radius: 10px;
   color: #fff;
 }
