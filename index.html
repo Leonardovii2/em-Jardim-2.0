@@ -15,16 +15,29 @@
   <body>
     <header>
       <div id="navbar"></div>
-      <div>
-        <img class="section__image" src="./src/assets/image/jd.jpg" alt="" />
+      <div class="container-img">
+        <picture>
+          <source
+            srcset="./src/assets/image/image_jd_mobile.jpg"
+            media="(max-width: 498px)"
+          />
+          <source
+            srcset="./src/assets/image/jd.jpg"
+            media="(min-width: 499px)"
+          />
+          <img src="./src/assets/image/jd.jpg" alt="" />
+        </picture>
       </div>
     </header>
 
     <main>
       <section class="cards__atrativos">
-        <h1>
-          Atrativos Turísticos <span class="color-complemento">em Jardim</span>
-        </h1>
+        <div class="div-titulo">
+          <h1>
+            Atrativos Turísticos
+            <span class="color-complemento">em Jardim</span>
+          </h1>
+        </div>
 
         <div class="container">
           <div class="card">
@@ -122,7 +135,9 @@
       </section>
 
       <section class="cards__hospedagens">
-        <h1>Hospedagens <span class="color-complemento">em Jardim</span></h1>
+        <div class="div-titulo">
+          <h1>Hospedagens <span class="color-complemento">em Jardim</span></h1>
+        </div>
 
         <div class="container">
           <div class="card">
@@ -190,7 +205,9 @@
       </section>
 
       <section class="cards__restaurantes">
-        <h1>Restaurantes <span class="color-complemento">em Jardim</span></h1>
+        <div class="div-titulo">
+          <h1>Restaurantes <span class="color-complemento">em Jardim</span></h1>
+        </div>
 
         <div class="container">
           <div class="card">

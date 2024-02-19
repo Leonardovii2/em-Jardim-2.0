@@ -7,33 +7,15 @@ body {
   padding: 60px;
 }
 
-.cards__atrativos {
-  padding: 60px;
-}
-
+.cards__atrativos,
 .cards__restaurantes {
   padding: 60px;
 }
 
-.cards__atrativos h1 {
-  justify-content: left;
-  padding-bottom: 60px;
-  margin-left: 420px;
-  font-size: 30px;
-}
-
-.cards__hospedagens h1 {
-  justify-content: left;
-  padding-bottom: 60px;
-  margin-left: 420px;
-  font-size: 30px;
-}
-
+.cards__atrativos,
+.cards__hospedagens,
 .cards__restaurantes h1 {
-  justify-content: left;
-  padding-bottom: 60px;
-  margin-left: 420px;
-  font-size: 30px;
+  padding-left: 60px;
 }
 
 .container {
@@ -87,6 +69,24 @@ body {
 }
 
 .color-complemento {
-  color: #CA7937;
-  
+  color: #ca7937;
+}
+
+@media (max-width: 498px) {
+  .cards__atrativos,
+  .cards__hospedagens,
+  .cards__restaurantes {
+    padding: 0;
+  }
+
+  .div-titulo {
+    padding: 20px 0 20px 0;
+  }
+
+  .div-titulo h1 {
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
