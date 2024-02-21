@@ -15,11 +15,21 @@
     <header>
       <div id="navbar"></div>
       <div class="container-image">
-        <img
-          class="image-menu-lagoamisteriosa"
-          src="./src/assets/image/arquivos_vista-area-da-lagoa-misteriosa-drone-3_156.JPG"
-          alt=""
-        />
+        <picture>
+          <source
+            srcset="
+              ./src/assets/image/arquivos_vista-area-da-lagoa-misteriosa-drone-2_440.JPG
+            "
+            media="(max-width: 498px)"
+          />
+          <source
+            srcset="
+              ./src/assets/image/arquivos_vista-area-da-lagoa-misteriosa-drone-2_440.JPG
+            "
+            media="(min-width: 499px)"
+          />
+          <img src="./src/assets/image/jd.jpg" alt="" />
+        </picture>
       </div>
 
       <div class="container__jardim">
